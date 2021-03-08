@@ -154,7 +154,7 @@ img {
 #header-inner {
   background: url("../img/showcase.jpg") no-repeat center 25%/cover;
   height: 5.5rem;
-  border: solid 2px #ffbc00; }
+  border: solid 1px #ffbc00; }
 
 #home-a .specials {
   margin-top: 3rem;

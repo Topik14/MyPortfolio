@@ -85,7 +85,7 @@ input[class^='btn-']:hover {
 
 .bottom-line {
   height: 2px;
-  width: 3rem;
+  width: 10rem;
   background: #ffbc00;
   display: block;
   margin: 0 auto 1rem auto; }
@@ -239,6 +239,42 @@ img {
   #about-a .about-info .award-1 .fas, #about-a .about-info .award-2 .fas, #about-a .about-info .award-3 .fas {
     color: #ffbc00;
     margin: 1rem; }
+
+#about-b .progress {
+  overflow: hidden;
+  height: 15px;
+  background: #ccc;
+  border-radius: 5px;
+  margin-bottom: 0.4rem; }
+  #about-b .progress div {
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    background: #ffbc00; }
+
+#about-c .about-logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem; }
+
+#about-d .testimonials {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.7rem; }
+  #about-d .testimonials ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-top: 1.2rem; }
+  #about-d .testimonials p {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem; }
+  #about-d .testimonials img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 0.9rem; }
 
 #main-footer {
   background: #333;

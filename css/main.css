@@ -141,7 +141,7 @@ img {
       border-color: #ffbc00; }
 
 #header-home {
-  background: url("../img/showcase.jpg") no-repeat center right/cover;
+  background: url("../img/showcase.jpg") no-repeat center center/cover;
   height: 100vh;
   color: #fff; }
   #header-home .header-content {
@@ -150,6 +150,11 @@ img {
     #header-home .header-content h1 {
       font-size: 4rem;
       line-height: 1.2; }
+
+#header-inner {
+  background: url("../img/showcase.jpg") no-repeat center 25%/cover;
+  height: 5.5rem;
+  border: solid 2px #ffbc00; }
 
 #home-a .specials {
   margin-top: 3rem;
@@ -214,6 +219,26 @@ img {
       #home-c .process-icon:hover .process-step {
         background: #333;
         color: #fff; }
+
+#about-a .about-info {
+  display: grid;
+  grid-template-areas: 'bioimage bio bio' 'aw1 aw2 aw3';
+  grid-gap: 1.2rem; }
+  #about-a .about-info .bio-image {
+    grid-area: bioimage; }
+  #about-a .about-info .bio {
+    grid-area: bio;
+    border-left: 3px solid #ffbc00;
+    padding: 0.8rem; }
+  #about-a .about-info .award-1 {
+    grid-area: aw1; }
+  #about-a .about-info .award-2 {
+    grid-area: aw2; }
+  #about-a .about-info .award-3 {
+    grid-area: aw3; }
+  #about-a .about-info .award-1 .fas, #about-a .about-info .award-2 .fas, #about-a .about-info .award-3 .fas {
+    color: #ffbc00;
+    margin: 1rem; }
 
 #main-footer {
   background: #333;
